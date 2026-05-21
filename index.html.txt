@@ -1,0 +1,179 @@
+!DOCTYPE html
+html lang=en
+head
+    meta charset=UTF-8
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    meta name=description content=Simpery X - Start your company in 10 mins with easy deployment. Skip the infrastructure headaches.
+    titleSimpery X  Automated Business Deploymenttitle
+    !-- Tailwind CSS via CDN for instant styling --
+    script src=httpscdn.tailwindcss.comscript
+    style
+        @import url('httpsfonts.googleapis.comcss2family=Interwght@300;400;600;700&display=swap');
+        body { font-family 'Inter', sans-serif; }
+    style
+head
+body class=bg-slate-50 text-slate-800 antialiased flex flex-col min-h-screen
+
+    !-- Navigation --
+    nav class=bg-white shadow-sm border-b border-slate-200 sticky top-0 z-50
+        div class=max-w-7xl mx-auto px-4 smpx-6 lgpx-8 h-16 flex items-center justify-between
+            div class=flex items-center gap-2
+                div class=w-8 h-8 bg-indigo-600 rounded flex items-center justify-center text-white font-bold text-xlXdiv
+                span class=font-bold text-xl tracking-tight text-slate-900Simpery Xspan
+            div
+            a href=#deploy class=text-sm font-semibold text-indigo-600 hovertext-indigo-500 transition-colorsLog Ina
+        div
+    nav
+
+    !-- Hero Section --
+    section class=bg-slate-900 text-white py-24 smpy-32 overflow-hidden
+        div class=max-w-4xl mx-auto px-4 smpx-6 lgpx-8 text-center
+            h1 class=text-4xl smtext-6xl font-bold tracking-tight mb-6 leading-tight
+                Launch Your Business Before Your span class=text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400Coffee Gets Cold.span
+            h1
+            p class=text-lg smtext-xl text-slate-300 mb-10 max-w-2xl mx-auto
+                Skip the weeks of configuration, infrastructure planning, and deployment headaches. Simpery X provides the automated foundation to get your digital products live in under 10 minutes.
+            p
+            div class=flex flex-col smflex-row justify-center gap-4
+                a href=#deploy class=bg-indigo-600 hoverbg-indigo-500 text-white font-semibold py-3 px-8 rounded-lg shadow-lg shadow-indigo-50030 transition-all text-lg
+                    Deploy Simpery X Now
+                a
+                a href=#demo class=bg-slate-800 hoverbg-slate-700 border border-slate-700 text-white font-semibold py-3 px-8 rounded-lg transition-all text-lg flex items-center justify-center gap-2
+                    svg class=w-5 h-5 fill=currentColor viewBox=0 0 20 20path fill-rule=evenodd d=M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z clip-rule=evenoddpathsvg
+                    Watch the 1-Minute Demo
+                a
+            div
+        div
+    section
+
+    !-- The Old Way vs The Simpery X Way --
+    section class=py-20 bg-white
+        div class=max-w-5xl mx-auto px-4 smpx-6 lgpx-8
+            h2 class=text-3xl font-bold text-center mb-12 text-slate-900The Old Way vs. The Simpery X Wayh2
+            div class=overflow-x-auto shadow-xl rounded-xl border border-slate-200
+                table class=w-full text-left border-collapse bg-white
+                    thead
+                        tr class=bg-slate-50 text-slate-900 border-b border-slate-200
+                            th class=py-4 px-6 font-semibold w-13Featureth
+                            th class=py-4 px-6 font-semibold w-13 text-slate-500Traditional Launchth
+                            th class=py-4 px-6 font-semibold w-13 text-indigo-700 bg-indigo-5050Simpery Xth
+                        tr
+                    thead
+                    tbody class=text-slate-600
+                        tr class=border-b border-slate-100
+                            td class=py-4 px-6 font-medium text-slate-900Time to Markettd
+                            td class=py-4 px-6Weeks of setup and testingtd
+                            td class=py-4 px-6 font-semibold text-indigo-700 bg-indigo-505010 minutes from idea to livetd
+                        tr
+                        tr class=border-b border-slate-100
+                            td class=py-4 px-6 font-medium text-slate-900Infrastructuretd
+                            td class=py-4 px-6Manual server configurationtd
+                            td class=py-4 px-6 font-semibold text-indigo-700 bg-indigo-5050Automated, one-click deploymenttd
+                        tr
+                        tr class=border-b border-slate-100
+                            td class=py-4 px-6 font-medium text-slate-900Overheadtd
+                            td class=py-4 px-6High initial Dev-Ops coststd
+                            td class=py-4 px-6 font-semibold text-indigo-700 bg-indigo-5050Predictable, scalable foundationtd
+                        tr
+                        tr
+                            td class=py-4 px-6 font-medium text-slate-900Focustd
+                            td class=py-4 px-6Managing backend operationstd
+                            td class=py-4 px-6 font-semibold text-indigo-700 bg-indigo-5050Scaling your core businesstd
+                        tr
+                    tbody
+                table
+            div
+        div
+    section
+
+    !-- How It Works --
+    section class=py-20 bg-slate-50 border-y border-slate-200
+        div class=max-w-7xl mx-auto px-4 smpx-6 lgpx-8
+            div class=text-center mb-16
+                h2 class=text-3xl font-bold text-slate-900 mb-4How It Worksh2
+                p class=text-slate-600 max-w-2xl mx-autoGetting your business off the ground shouldn't be a bottleneck. The deployment pipeline is designed for absolute friction-free launches.p
+            div
+            
+            div class=grid mdgrid-cols-4 gap-8
+                !-- Step 1 --
+                div class=bg-white p-6 rounded-xl shadow-sm border border-slate-200 relative
+                    div class=w-10 h-10 bg-indigo-100 text-indigo-600 rounded-full flex items-center justify-center font-bold mb-41div
+                    h3 class=text-lg font-bold mb-2Connect Your Codebaseh3
+                    p class=text-slate-600 text-smLink your repository or select from our pre-configured, production-ready business templates.p
+                div
+                !-- Step 2 --
+                div class=bg-white p-6 rounded-xl shadow-sm border border-slate-200
+                    div class=w-10 h-10 bg-indigo-100 text-indigo-600 rounded-full flex items-center justify-center font-bold mb-42div
+                    h3 class=text-lg font-bold mb-2Configure Environmenth3
+                    p class=text-slate-600 text-smSet your variables, API keys, and custom domains through a clean, intuitive dashboard.p
+                div
+                !-- Step 3 --
+                div class=bg-white p-6 rounded-xl shadow-sm border border-slate-200
+                    div class=w-10 h-10 bg-indigo-100 text-indigo-600 rounded-full flex items-center justify-center font-bold mb-43div
+                    h3 class=text-lg font-bold mb-2One-Click Deployh3
+                    p class=text-slate-600 text-smHit launch. The automated pipeline handles the building, containerization, and routing instantly.p
+                div
+                !-- Step 4 --
+                div class=bg-white p-6 rounded-xl shadow-sm border border-slate-200
+                    div class=w-10 h-10 bg-indigo-100 text-indigo-600 rounded-full flex items-center justify-center font-bold mb-44div
+                    h3 class=text-lg font-bold mb-2Scale Automaticallyh3
+                    p class=text-slate-600 text-smAs your user base grows, your infrastructure scales with it—zero manual intervention required.p
+                div
+            div
+        div
+    section
+
+    !-- Built for Speed (Features) --
+    section class=py-20 bg-white
+        div class=max-w-7xl mx-auto px-4 smpx-6 lgpx-8
+            h2 class=text-3xl font-bold text-center mb-16 text-slate-900Built for Speed, Engineered for Growthh2
+            div class=grid mdgrid-cols-2 gap-12
+                div class=flex gap-4
+                    div class=flex-shrink-0 w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center text-emerald-600📊div
+                    div
+                        h4 class=text-xl font-bold mb-2Integrated SEO & Analyticsh4
+                        p class=text-slate-600Built-in performance marketing tools and metric tracking to optimize your growth and lead generation from day one.p
+                    div
+                div
+                div class=flex gap-4
+                    div class=flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600🌍div
+                    div
+                        h4 class=text-xl font-bold mb-2Global Edge Networkh4
+                        p class=text-slate-600Serve your customers with ultra-low latency, ensuring lightning-fast load times no matter where they are located.p
+                    div
+                div
+                div class=flex gap-4
+                    div class=flex-shrink-0 w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center text-purple-600⚡div
+                    div
+                        h4 class=text-xl font-bold mb-2Zero-Downtime Updatesh4
+                        p class=text-slate-600Push new features and product iterations continuously without disrupting your active users.p
+                    div
+                div
+                div class=flex gap-4
+                    div class=flex-shrink-0 w-12 h-12 bg-rose-100 rounded-lg flex items-center justify-center text-rose-600🛡️div
+                    div
+                        h4 class=text-xl font-bold mb-2Enterprise-Grade Securityh4
+                        p class=text-slate-600SSL certificates, DDoS protection, and automated daily backups come standard right out of the box.p
+                    div
+                div
+            div
+        div
+    section
+
+    !-- Final CTA & Footer --
+    section class=bg-indigo-700 text-white py-20 mt-auto
+        div class=max-w-4xl mx-auto px-4 smpx-6 lgpx-8 text-center
+            h2 class=text-3xl smtext-4xl font-bold mb-6Ready to turn that idea into a live companyh2
+            p class=text-indigo-100 mb-10 text-lgJoin the founders who are building and deploying the next generation of digital products with Simpery X.p
+            a href=#deploy class=bg-white text-indigo-700 hoverbg-slate-100 font-bold py-4 px-10 rounded-lg shadow-xl transition-all text-lg inline-block
+                Start Your 10-Minute Deployment Today
+            a
+        div
+    section
+    
+    footer class=bg-slate-900 text-slate-400 py-6 text-center text-sm
+        p&copy; 2026 Simpery X. All rights reserved.p
+    footer
+
+body
+html
